@@ -1,0 +1,124 @@
+<style>
+    
+
+    nav ul{
+        display: flex;
+     
+        
+    } 
+    nav li {padding:30px;
+        list-style-type: none;
+        
+    }
+
+    body {
+    padding:20px;
+    color:black;
+    background-color:#BEC9DF ;
+}
+
+
+    nav  {border-bottom: 2px solid black;}
+
+    main {
+        justify-content: center;
+        display: flex;      
+   }
+
+   main > div {padding:40px;}
+
+   .avatar {border-radius: 50%;}
+
+   .navigation {
+       display: block flex;
+       justify-content:space-evenly;
+       font-family: 'Lato', sans-serif;
+       text-transform: uppercase;
+     
+   }
+   nav a {
+        color: #F8FAFC;
+        text-decoration: none;
+    }
+.flex-items {
+    background-color:#F8FAFC;
+    border-radius: 3%;
+    border-color: #33475b;
+    border-style: double;
+   
+}
+   .flex-items a {
+    text-decoration: none;
+    color:#33475B}
+
+nav  {border-bottom: 2px solid #F8FAFC;}
+
+   h1, p {font-family: 'Lato', sans-serif;}
+   h1 {text-transform: uppercase;}
+
+ 
+    p {color:#33475b;
+        padding: 5px;}
+    
+    h1 {text-transform: uppercase;
+        color: #FF7A59;
+        padding-top: 20px;}
+
+
+   @media only screen and (max-width: 990px) {
+  main {
+    justify-content: center;
+    padding:20px;
+    flex-direction: column;
+  }
+   img { width: 100%;
+height: fit-content;}
+
+  nav li {
+      padding:15px; 
+    }
+
+    h1{margin-top: -50px;}
+}
+</style>
+
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <head>
+        <nav class="navigation">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="fa fa-linkedin"></a></li>  
+                <li><a href="#" class="fa fa-instagram"></a></li> 
+                <li><a href="#" class="fa fa-facebook"></a></li>  
+            </ul>
+        </nav>
+
+    </head>
+
+    <main>
+        <div class="avatar">
+            <img class="avatar" width="500" src="nic.jpg">
+        </div>
+        <div class="intro">
+            <h1>
+                Meet Me
+            </h1>
+            <p> <strong>Loves:</strong> To learn, bike, dance, adventure, calligraphy, and listen to the Reciepts podcast.
+                </p>
+                <p><strong>Experience:</strong> I studied Mathematics at the University of Leeds, in which I developed my skills in Python and R. </p>
+                <p><strong>Current:</strong> Living in Shanghai. Enjoying new experiences in China. Recently completed Python 1 and 2 from Robociti Women in Python course. Self-learning programs HTML, CSS and Javascript. </p>
+                <p><strong>Future goals:</strong> Aspiring front-end web developer; ready to delve back into the coding world by learning new languages and their applications. 
+                My aim is to produce a range of projects with these languages and keep my work on this website. Click here to discover my work.</p>
+        </div>
+        
+    </main>
+</body>
